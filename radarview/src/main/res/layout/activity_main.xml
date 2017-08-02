@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lkd"
+    tools:context="com.konka.radarview.MainActivity">
+
+    <com.konka.radarview.RadarViewGroup
+
+        android:id="@+id/radar_container"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_centerHorizontal="true">
+
+        <com.konka.radarview.RadarView
+            android:id="@+id/radar_view"
+            android:layout_width="500dp"
+            android:layout_height="500dp" />
+    </com.konka.radarview.RadarViewGroup>
+
+</RelativeLayout>
