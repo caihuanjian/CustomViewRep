@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context="com.rain.wether_ui.MainActivity">
+
+    <com.rain.wether_ui.views.SunView
+        android:id="@+id/sunview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:fillColor="@color/colorFill"
+        app:lineColor="@android:color/white"
+        app:sunColor="@color/colorSun"
+        app:textOffsetTop="5dp"
+        app:sunDotRadius="8dp"
+        app:timeTextSize="18sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:onClick="onClick"
+        android:text="重新绘制" />
+
+
+</FrameLayout>
