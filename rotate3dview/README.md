@@ -1,1 +1,1 @@
-![gif](https://github.com/caihuanjian/CustomViewRep/tree/master/rotate3dview/gif)
+![gif](https://github.com/caihuanjian/CustomViewRep/tree/master/rotate3dview/gif/rotate.gif)
