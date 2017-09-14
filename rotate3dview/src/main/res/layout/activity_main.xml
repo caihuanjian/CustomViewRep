@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rain.rotate3dview.MainActivity">
+
+    <com.rain.rotate3dview.views.RotateView
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:background="#929ab6ad"
+            android:scaleType="fitXY"
+            android:src="@drawable/phone1" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:background="#92311440"
+            android:scaleType="fitXY"
+            android:src="@drawable/phone2" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:background="#92861278"
+            android:scaleType="fitXY"
+            android:src="@drawable/phone3" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:background="#929c0c1f"
+            android:scaleType="fitXY"
+            android:src="@drawable/phone4" />
+    </com.rain.rotate3dview.views.RotateView>
+
+
+</RelativeLayout>

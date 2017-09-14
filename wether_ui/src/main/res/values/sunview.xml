@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SunView">
+        <attr name="textOffsetTop" format="dimension|reference"></attr>
+        <attr name="timeTextSize" format="dimension|reference"></attr>
+        <attr name="fillColor" format="color|reference"></attr>
+        <attr name="lineColor" format="color|reference"></attr>
+        <attr name="sunColor" format="color|reference"></attr>
+        <attr name="sunDotRadius" format="dimension|reference"></attr>
+    </declare-styleable>
+</resources>
