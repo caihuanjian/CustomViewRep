@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Users\\HP\\mygithub\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "E:\\Users\\HP\\mygithub\\MyApplication\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Users\\HP\\mygithub\\CustomViewRep\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "E:\\Users\\HP\\mygithub\\CustomViewRep\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    }
+]
