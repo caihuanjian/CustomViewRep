@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClick(View view) {
+//        searchView.setInterpolator(new FastOutLinearInInterpolator());
         searchView.start();
     }
 

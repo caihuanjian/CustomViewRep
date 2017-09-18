@@ -159,9 +159,11 @@ public class SearchView extends View {
         Log.d("chj", progress + " ");
         if (progress <= 1 && mState != State.None) {
             drawingPath = dst;
-            if (progress == 1) {
+            if (progress >= 1) {
                 updateState();
             }
+        } else {
+            updateState();
         }
         postInvalidate();
     }
@@ -198,5 +200,9 @@ public class SearchView extends View {
 
     public void stop() {
         isOver = true;
+    }
+
+    public void setInterpolator(Interpolator interpolator) {
+        mInterpolator = interpolator;
     }
 }
